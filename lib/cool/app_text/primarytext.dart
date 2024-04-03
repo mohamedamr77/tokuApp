@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class AppText {
+//primary color
   static const String appBarText= "Toku";
   static const String NumberText= "Numbers";
   static const String familyText= "Family Members";
@@ -28,6 +29,7 @@ static const String numberSevenJapanese="Nana";
 static const String numberEightJapanese="Hachi";
 static const String numberNineJapanese="Kyuu ";
 static const String numberTenJapanese="Juu";
+
 
 
 }

@@ -64,7 +64,7 @@ class FamilyScreen extends StatelessWidget {
 
             RowWidget(
               englishName: "older sister",
-              japaneseName: "chich",
+              japaneseName: "Ane",
               image: "assets/images/family_members/family_older_sister.png",
               sound: "sounds/family_members/older sister.wav",
               color:AppColor.familyColors ,
@@ -88,13 +88,11 @@ class FamilyScreen extends StatelessWidget {
 
             RowWidget(
               englishName: "younger sister",
-              japaneseName: "Ane",
+              japaneseName: "Imouto",
               image: "assets/images/family_members/family_younger_sister.png",
               sound: "sounds/family_members/younger sister.wav",
               color:AppColor.familyColors ,
             ),
-
-
           ],
         ),
       ),
