@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:tokuapp/cool/color/primarycolor.dart';
 import 'package:tokuapp/widget/appbar.dart';
 import 'package:tokuapp/widget/rowwidgetrscreen.dart';
-
 class PharseScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
