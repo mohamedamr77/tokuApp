@@ -75,7 +75,7 @@ class PharseScreen extends StatelessWidget{
             RowWidget(
               englishName: 'Are you coming?',
               japaneseName: 'Kimsau ka',
-              sound: "assets/sounds/phrases/are_you_coming.wav",
+              sound: "sounds/phrases/are_you_coming.wav",
               color: AppColor.pharsesColors,
 
             ),
