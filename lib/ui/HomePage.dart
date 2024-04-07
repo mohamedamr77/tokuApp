@@ -22,7 +22,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
        body: Column(
          children: [
               ContainerHome(text: AppText.NumberText, color: AppColor.membersColors, onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>MemberScreen())
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const MemberScreen())
                 );
               },),
               ContainerHome(text: AppText.familyText,color: AppColor.familyColors, onPressed: () {
@@ -32,7 +32,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>const ColorScreen()));
               },),
               ContainerHome(text: AppText.pharsesText, color: AppColor.pharsesColors, onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>PharseScreen()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const PharseScreen()));
 
               },),
          ],

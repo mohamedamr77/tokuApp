@@ -1,5 +1,4 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../cool/color/primarycolor.dart';
 class RowWidget extends StatelessWidget{

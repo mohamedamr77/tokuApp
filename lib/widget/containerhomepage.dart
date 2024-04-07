@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../cool/color/primarycolor.dart';
 
@@ -6,7 +5,7 @@ class ContainerHome extends StatelessWidget{
   final String text;
   final Color color;
  final void Function()? onPressed ;
-  ContainerHome({super.key,required this.text,required this.color,required this.onPressed});
+  const ContainerHome({super.key,required this.text,required this.color,required this.onPressed});
   @override
   Widget build(BuildContext context) {
     return  ElevatedButton(
@@ -26,7 +25,7 @@ class ContainerHome extends StatelessWidget{
         ),
         child: Padding(
           padding: const EdgeInsets.all(18.0),
-          child: Text("$text",
+          child: Text(text,
             style: const TextStyle(
               color: AppColor.colorWord,
               fontSize: 20,

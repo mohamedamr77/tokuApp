@@ -4,6 +4,6 @@ import '../cool/color/primarycolor.dart';
 AppBar AppBarHeaderNav({required String text}){
   return AppBar(
     backgroundColor: AppColor.appBarcolor,
-    title: Text("$text"),
+    title: Text(text),
   );
 }
